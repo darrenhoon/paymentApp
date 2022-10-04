@@ -1,0 +1,6 @@
+{
+    "env": {
+        "DB_URI": "your DB URI here",
+        "JWT_SECRET_KEY": "A secret JWT Key"
+    }
+}

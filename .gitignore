@@ -1,0 +1,6 @@
+*/node_modules
+*/.env
+*/nodemon.json
+*/.DS_Store
+
+.DS_Store

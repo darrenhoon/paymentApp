@@ -1,0 +1,6 @@
+{
+    "env": {
+        "STRIPE_KEY": "Insert your Stripe Key here",
+        "CLIENT_URL": "http://localhost:3003"
+    }
+}
