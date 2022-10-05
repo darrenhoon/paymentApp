@@ -27,7 +27,9 @@ const cartSlice = createSlice({
           position: "bottom-left",
         });
       } else {
-        let tempProductItem = { ...action.payload, cartQuantity: 1 };
+        // let tempProductItem = { ...action.payload, cartQuantity: 1 };
+        let item = action.payload.product
+        let tempProductItem = { item, cartQuantity: 1 };
         state.cartItems.push(tempProductItem);
         toast.success("Product added to cart", {
           position: "bottom-left",
